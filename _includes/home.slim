@@ -1,0 +1,27 @@
+.row.teaser
+  .large-12.columns
+    -#| <span>{% editable_short_text 'teaser' %}{% endeditable_short_text %}</span>
+
+.row
+  -#| {% for offer in contents.offers %}
+  -#| <div class="large-4 columns">
+  -#|   {% include 'table' with offer %}
+  -#| </div>
+  -#| {% endfor %}
+  .large-4.columns
+    ul.pricing-table
+      li.title
+        -#| {% editable_short_text 'technology' %}{% endeditable_short_text %}
+      li.price
+        -#| {% editable_short_text 'technology teaser' %}{% endeditable_short_text %}
+      li.description
+        -#| {% for tag in contents.tags %}
+        -#| <a href="{{ tag._slug }}">{{ tag.name }}</a>
+        -#| {% endfor %}
+
+.row
+  -#| {% for principle in contents.principles %}
+  -#| <div class="large-4 columns">
+  -#|   {% include 'table' with principle %}
+  -#| </div>
+  -#| {% endfor %}
