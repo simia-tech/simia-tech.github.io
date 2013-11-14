@@ -14,5 +14,6 @@ function MainController() {
 }
 
 function template(id) {
-    return document.getElementById(id).innerHTML;
+    var element = document.getElementById(id);
+    return element ? element.innerHTML : "";
 }

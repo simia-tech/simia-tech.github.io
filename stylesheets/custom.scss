@@ -1,0 +1,291 @@
+@font-face {
+  font-family: "Gotham Light";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gotham Light"), local("GothamLight"), url(/fonts/gotham-light-webfont.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  font-style: bold;
+  font-weight: 400;
+  src: local("Gotham Bold"), local("GothamBold"), url(/fonts/gotham-bold-webfont.woff) format("woff");
+}
+
+
+body {
+  font-family: "Gotham Light";
+  background-color: #f6f6f6;
+}
+h1, h2, h3, h4, g5 {
+  font-family: "Gotham Bold";
+  font-weight: normal;
+}
+p {
+  line-height: 1.4em;
+  margin-bottom: 0.2em;
+}
+
+.content {
+  padding: 1em;
+}
+.content h1 {
+  font-size: 180%;
+  margin-bottom: 0;
+}
+.content h2 {
+  font-size: 150%;
+  margin-bottom: 0;
+}
+.content form {
+  margin-top: 1em;
+}
+
+.content .person {
+  clear: both;
+}
+.content .person > a {
+  float: left;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+.content .person > span {
+  float: left;
+  max-width: 70%
+}
+.content .person > span > strong {
+  font-family: 'Cuprum', sans-serif;
+  font-style: italic;
+  font-size: 110%;
+  margin-right: 0.5em;
+}
+.content .person > span > p {
+  display: inline;
+}
+.content .person > ul {
+  clear: both;
+  float: left;
+  list-style: none;
+  margin-left: 0;
+}
+.content .person > ul > li {
+  float: left;
+  margin-right: 0.5em;
+}
+
+.content .project > span > strong {
+  font-family: 'Cuprum', sans-serif;
+  font-style: italic;
+  font-size: 110%;
+}
+
+.content .project > a {
+  float: left;
+}
+.content .project > ul {
+  clear: both;
+  float: left;
+  list-style: none;
+  margin-left: 0;
+}
+.content .project > ul > li {
+  float: left;
+  margin-right: 0.5em;
+}
+.content .section {
+  font-weight: bold;
+}
+.content .section > .columns {
+  padding: 1em 0.9375em;
+}
+.content .pricing-table * {
+  line-height: 1.2em;
+}
+.content .pricing-table > .price {
+  padding: 0.6375em 0.25em;
+}
+.content .pricing-table > .description {
+  font-size: 1.25em;
+  text-align: justify;
+}
+.content .tags > ul {
+  list-style: none;
+}
+.content .tags > ul > li {
+  float: left;
+  margin-right: 0.5em;
+}
+
+.content .topic {
+  font-family: 'Cuprum', sans-serif;
+  font-style: italic;
+  font-size: 110%;
+  color: rgba(105,105,105,1.0);
+}
+
+.content .teaser > .columns > span {
+  display: inline-block;
+  width: 100%;
+  margin: 2em 0;
+  font-family: 'Cuprum', sans-serif;
+  font-style: italic;
+  font-size: 220%;
+  text-align: center;
+  color: #1e2828;
+}
+
+.header {
+  margin-top: 1.5em;
+}
+
+.header .sitename > h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 300%;
+}
+
+.header > .columns > h1 {
+  display: inline;
+  font-size: 300%;
+  line-height: inherit;
+  margin-right: 0.5em;
+  margin-bottom: 0;
+}
+.header > .columns > span {
+  font-size: 80%;
+  font-style: italic;
+}
+.header > .columns > div {
+  margin-top: 10px;
+  text-align: right;
+}
+.header a > img {
+  width: 400px; /*300px*/
+  margin-top: -10px;
+  margin-bottom: -20px; /* -20 */
+}
+.footer > .columns {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.navigation hr {
+  height: 12px;
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+.navigation hr.yellow {
+  background-color: #fbaf3f;
+}
+.navigation hr.black {
+  background-color: #000000;
+}
+.navigation ul {
+  list-style: none;
+  line-height: 1.4em;
+  margin-bottom: 1.5em; /*0.5em;*/
+  font-size: 1.1em; /*none*/
+}
+.navigation ul li {
+  float: left;
+  margin-left: 1em;
+}
+.navigation ul li a {
+  font-family: 'Cuprum', sans-serif;
+  /*font-family: "Gotham Bold";*/
+  font-size: 115%;
+  font-weight: normal;
+  font-style: italic;
+  color: rgba(150,150,150,1.0);
+}
+.navigation ul li a:hover {
+  color: rgba(105,105,105,1.0);
+}
+.navigation ul li.active a {
+  color: #1e2828;
+}
+
+.impress {
+  font-size: 80%;
+}
+
+.impress h1 {
+  color: #1e2828;
+}
+
+.impress h2 {
+  color: #1e2828;
+}
+
+.pricing-table {
+  border: none;
+}
+
+.pricing-table .price {
+  font-style: italic;
+  font-size: 0.95em;
+  /*  	background-color: (105,105,105,0.4);*/
+  background-color: rgba(251, 175, 63, 0.1);
+}
+
+.pricing-table .title {
+  background-color: #1e2828;
+  color: white;
+  padding: 0.6375em 0.25em;
+}
+
+.pricing-table .description {
+  background-color: rgba(236, 236, 236,0.1);
+}
+
+.screen {
+  background-color: white;
+}
+
+.shadow {
+  box-shadow:
+    0 0 20px 3px rgba(0,0,0,0.1);
+  -o-box-shadow:
+    0 0 20px 3px rgba(0,0,0,0.1);
+
+  -webkit-box-shadow:
+    0 0 20px 3px rgba(0,0,0,0.1);
+
+  -moz-box-shadow:
+    0 0 20px 3px rgba(0,0,0,0.1);
+}
+
+
+.glass {
+  color: #ffffff;
+
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+
+  background: rgba(0,0,0,0.25);
+
+  box-shadow:
+    inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+    inset 0 5px rgba(255,255,255,0.2), /* Top Light Shadow */
+    inset 0 5px 0px rgba(255,255,255,0.25), /* Sides Light Shadow */
+    inset 0 -5px 10px rgba(0,0,0,0.2); /* Dark Background */
+
+  -o-box-shadow:
+    inset 0 1px rgba(255,255,255,0.3),
+    inset 0 5px rgba(255,255,255,0.2),
+    inset 0 5px 20px rgba(255,255,255,0.25),
+    inset 0 -5px 10px rgba(0,0,0,0.2);
+
+  -webkit-box-shadow:
+    inset 0 1px rgba(255,255,255,0.3),
+    inset 0 5px rgba(255,255,255,0.2),
+    inset 0 5px 20px rgba(255,255,255,0.25),
+    inset 0 -5px 10px rgba(0,0,0,0.2);
+
+  -moz-box-shadow:
+    inset 0 1px rgba(255,255,255,0.3),
+    inset 0 5px rgba(255,255,255,0.2),
+    inset 0 5px 20px rgba(255,255,255,0.25),
+    inset 0 -5px 10px rgba(0,0,0,0.2);
+}
