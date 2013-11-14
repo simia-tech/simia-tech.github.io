@@ -1,4 +1,3 @@
-require 'fileutils'
 
 TARGET_PATH = File.expand_path(File.dirname(__FILE__) + '/target')
 GIT_REMOTE = "ssh://git@github.com/simia-tech/simia-tech.github.io"
