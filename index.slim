@@ -39,7 +39,7 @@ html class="no-js" lang="en" ng-app="main"
     - Dir[ File.join(File.dirname(__FILE__), 'pages', '*.slim') ].each do |filename|
       - id = File.basename filename, '.slim'
       script id="#{id}" type="text/x-angular-template"
-        == partial filename
+        = partial filename
 
     script src="/javascripts/all.js" type="text/javascript"
     javascript:
