@@ -1,5 +1,5 @@
 
-var application = angular.module('main', [ 'ngRoute' ]);
+var application = angular.module('main', [ 'ngRoute', 'ngCookies' ]);
 
 application.config(function ($routeProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
@@ -14,13 +14,27 @@ application.config(function ($routeProvider, $locationProvider) {
         otherwise({ redirectTo: '/' });
 });
 
-function LayoutController($scope, $rootScope, $location, $window) {
-    $scope.locales = [ 'en', 'de' ];
-    $scope.locale = 'en';
+function LayoutController($scope, $locale, $cookies, $rootScope, $location, $window) {
     $scope.model = model;
+    $scope.availableLocales = [ 'en', 'de' ];
+
+    if ($cookies.locale) {
+        $scope.locale = $cookies.locale;
+    } else {
+        var browserLocale = $locale.id ? $locale.id.substring(0, 2) : null;
+        if ($scope.availableLocales.indexOf(browserLocale) == -1) {
+            $scope.locale = 'en';
+        } else {
+            $scope.locale = browserLocale;
+        }
+    }
+    console.log($scope.locale);
+
     $scope.switchLocale = function (value) {
+        $cookies.locale = value;
         $scope.locale = value;
     };
+
     $scope.t = function (value) {
         if (value) {
             return angular.isObject(value) ? value[ $scope.locale ] : value;
