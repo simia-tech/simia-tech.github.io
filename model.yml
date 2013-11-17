@@ -185,7 +185,7 @@ team:
       de: |
         arbeitet am liebsten an Herausforderungen Verteilter Systeme, studierte Informatik in Berlin, entwickelte eine
         NoSQL Datenbank und hat langjährige Erfahrung in der Entwicklung von skalierbaren Systemen.
-    pictureUrl: /images/monika.jpg
+    pictureUrl: /images/monika-100.jpg
     url: https://github.com/momo13
     tags:
       - redis
@@ -211,7 +211,7 @@ team:
       de: |
         ist urspünglich ein low-level Handwerker, arbeitet seit einigen Jahren auch mit high-level Sprachen. Studierte
         technische Informatik an der TU Berlin und begleitete einige Startups in der Stadt.
-    pictureUrl: /images/philipp.jpg
+    pictureUrl: /images/philipp-100.jpg
     url: https://github.com/phifty
     tags:
       - riak
