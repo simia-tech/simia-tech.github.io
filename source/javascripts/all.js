@@ -30,7 +30,6 @@ function LayoutController($scope, $rootScope, $location, $window) {
     };
 
     $rootScope.$on('$routeChangeSuccess', function () {
-        console.log('track', $location.path());
         $window._gaq.push([ '_trackPageview', $location.path() ])
     });
 }
