@@ -14,7 +14,7 @@ application.config(function ($routeProvider, $locationProvider) {
         otherwise({ redirectTo: '/' });
 });
 
-function LayoutController($scope) {
+function LayoutController($scope, $rootScope, $location, $window) {
     $scope.locales = [ 'en', 'de' ];
     $scope.locale = 'en';
     $scope.model = model;
@@ -28,6 +28,11 @@ function LayoutController($scope) {
             return 'missing translation';
         }
     };
+
+    $rootScope.$on('$routeChangeSuccess', function () {
+        console.log('track', $location.path());
+        $window._gaq.push([ '_trackPageview', $location.path() ])
+    });
 }
 
 function TagController($scope, $routeParams) {
