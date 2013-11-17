@@ -28,7 +28,6 @@ function LayoutController($scope, $locale, $cookies, $rootScope, $location, $win
             $scope.locale = browserLocale;
         }
     }
-    console.log($scope.locale);
 
     $scope.switchLocale = function (value) {
         $cookies.locale = value;
