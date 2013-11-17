@@ -1,0 +1,10 @@
+.row
+  .large-4.columns
+    h1
+      | {{ t(model.about.headline) }}
+  .large-8.columns
+    p style="text-align: justify;" ng-repeat="paragraph in t(model.about.text)"
+      | {{ paragraph }}
+    form
+      a.radius.small.button href="/contact"
+        | {{ t(model.about.contact_us) }}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="JRUBY" name="JRuby">
+      <configuration>
+        <JRUBY_FACET_CONFIG_ID NAME="JRUBY_SDK_NAME" VALUE="RVM: jruby-1.7.0" />
+        <LOAD_PATH number="0" />
+        <I18N_FOLDERS number="0" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-1.9.3-p327" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="sass-stdlib" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.2.2, RVM: jruby-1.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: jruby-1.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: jruby-1.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http_parser.rb (v0.5.3, RVM: jruby-1.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, RVM: jruby-1.7.0) [gem]" level="application" />
+  </component>
+  <component name="RModuleSettingsStorage">
+    <LOAD_PATH number="0" />
+    <I18N_FOLDERS number="1" string0="$MODULE_DIR$/locales" />
+  </component>
+</module>
+

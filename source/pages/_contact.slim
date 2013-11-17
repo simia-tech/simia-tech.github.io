@@ -1,0 +1,8 @@
+.row
+  .small-12.large-8.large-centered.columns
+    p
+      | {{ t(model.contact.disclaimer) }}
+
+    form
+      a.radius.small.button href="mailto:info@simiatech.com"
+        | {{ t(model.contact.send_mail) }}

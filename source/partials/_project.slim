@@ -1,0 +1,10 @@
+.project
+  span
+  	strong
+      | {{ t(project.title) }}
+  p style="text-align: justify;"
+    | {{ t(project.description) }}
+  a href="{{ project.url }}" target="_blank" ng-show="project.url" Link
+  ul
+    li ng-repeat="tag in project.tags"
+      = partial 'partials/tag'

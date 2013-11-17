@@ -1,0 +1,12 @@
+h1
+  | {{ model.tags[tag] }}
+
+h2 Team
+ul.small-block-grid-1.large-block-grid-2
+  li ng-repeat="person in model.team | filter:hasTag"
+    = partial 'partials/person'
+
+h2 Projects
+ul.small-block-grid-1.large-block-grid-3
+  li ng-repeat="project in model.projects | filter:hasTag"
+    = partial 'partials/project'

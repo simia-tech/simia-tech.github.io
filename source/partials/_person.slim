@@ -1,0 +1,10 @@
+.person itemscope="" itemtype="http://data-vocabulary.org/Person"
+  a.th.radius href="{{ person.url }}" target="_blank" itemprop="url"
+    img ng-src="{{ person.pictureUrl }}" style="width:100px"
+  span
+    strong itemprop="name"
+      | {{ t(person.name) }}
+    | {{ t(person.text) }}
+  ul
+    li ng-repeat="tag in person.tags"
+      = partial 'partials/tag'

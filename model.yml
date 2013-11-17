@@ -1,0 +1,398 @@
+index:
+  navigation:
+    home: Home
+    about: About
+    team: Team
+    projects: Projects
+    contact: Contact
+    imprint: Imprint
+
+home:
+  teaser: Be ready for BigData with NoSQL technologies.
+  technology:
+    en: Technology
+    de: Technologie
+  technology_teaser:
+    en: We are using the latest tools.
+    de: Neueste Technologien.
+
+about:
+  headline:
+    en: NoSQL-based software solutions for your backend
+    de: NoSQL-basierte Software-Lösungen für Ihr Backend
+  text:
+    en:
+      - |
+        For many scenarios NoSQL databases offer a more cost effective and performant alternative or supplement to
+        traditional SQL databases. The possibilities are endless and the selection of an appropriate solution requires
+        a detailed analysis of the requirements on the backend system. We can help you create an appropriate
+        architecture for you.
+      - |
+        Since the beginning of the NoSQL movement we have dealt with the issue varied. Starting with a scientific
+        approach, the development of a NoSQL database, presentations at conferences, through to the use of various
+        NoSQL systems in high-performance distributed systems.
+      - |
+        We understand NoSQL (Not Only SQL) not as a general rejection of SQL databases, but rather as supplement or
+        possibly more useful approach. Depending on requirements, such as the expected read and write rates, the
+        structure of the data and the amount of data there are various NoSQL solutions that can be used as a complement
+        or substitute to SQL systems. For simple or unstructured data models key-value or document databases might fit
+        best, while some relationships, such as "who follows whom," can be mapped well with graph databases. These
+        NoSQL alternatives can have a many times higher performance and can be easier to handle.
+      - |
+        During the last years we collected experience in the use of NoSQL solutions, especially in so-called web-scale
+        systems. These are systems which are capable of processing thousands of requests per second. Often large
+        amounts of data are stored that are either made ​​directly available online or are later processed in a scalable
+        way. Examples of such systems are: Online Targeting Platform for Online Advertisement, Payment Service Provider
+        Platform or analysis platform for developers of online games.
+      - |
+        We offer consulting, design and implementation of service-oriented back-end systems, with the right combination
+        of SQL and NoSQL technologies. We follow high standards of architecture and code by following the principles of
+        Clean Code / SOLID hold and thus produce efficient, reusable and readable software. By test-driven development
+        (TDD), we produce software that can be trusted to a great extent. Simultaneously generate test reports a
+        documentary which always reflects the current status.
+      - |
+        We believe that agile software development produces the best possible product. Through constant feedback
+        between developers and client requirements can be updated during the development. The result is ultimately the
+        product that suits you best. Our solutions are independent of software vendors in order to achieve high quality
+        and performance, and will always offer a suitable solution can.
+    de:
+      - |
+        NoSQL Datenbanken bieten in vielen Szenarien eine kostengünstigere und performantere Alternative oder Ergänzung
+        zu traditionellen SQL Datenbanken. Die Möglichkeiten sind vielfältig und die Auswahl einer passenden Lösung
+        erfordert eine genaue Analyse der Anforderungen an das Backend-System. Wir helfen Ihnen bei der Erstellung
+        einer für Sie geeigneten Architektur.
+      - |
+        Seit den Anfängen der NoSQL Bewegung haben wir uns vielfältig mit dem Thema beschäftigt. Angefangen bei einer
+        wissenschaftlichen Betrachtung, der Entwicklung einer NoSQL Datenbank, Präsentationen auf Konferenzen, bis hin
+        zum Einsatz verschiedener NoSQL Systeme in hoch-performanten Verteilten Systemen.
+      - |
+        Dabei verstehen wir NoSQL (Not only SQL) nicht als generelle Abkehr von SQL Datenbanken, sondern vielmehr als
+        Ergänzung oder unter Umständen sinnvolleren Lösungsansatz. Abhängig von Anforderungen wie z. B. der zu
+        erwartenden Lese- und Schreibraten, der Struktur der Daten und der Datenmengen bieten sich unterschiedliche
+        NoSQL Lösungen als Ergänzung oder Ersatz zu SQL Systemen an. Für einfache oder unstrukturierte Datenmodelle
+        eignen sich zum Beispiel Key-Value oder Dokument Datenbanken, während sich manche Beziehungen, wie
+        “wer folgt wem”, gut mit Graph-Datenbanken abbilden lassen. Diese NoSQL Alternativen können um ein vielfaches
+        performanter und einfacher in der Handhabung sein.
+      - |
+        In den letzten Jahren sammelten wir Erfahrungen im Einsatz von NoSQL Lösungen, vor allem in sogenannten
+        web-scale Systemen. Das sind Systeme, die in der Lage sind tausende von Anfragen pro Sekunde zu verarbeiten.
+        Dabei werden oft große Datenmengen gespeichert, die entweder direkt online verfügbar gemacht werden oder später
+        auf eine skalierbare Art und Weise verarbeitet werden müssen. Beispiele für solche Systeme: Online Targeting
+        Platform für Advertisements, Payment Service Provider Platform oder Analyse Platform für Entwickler von Online
+        Spielen.
+      - |
+        Wir bieten Ihnen Beratung, Entwurf und Implementierung von service-orientierten Backend-Systemen, mit der
+        passenden Kombination aus SQL und NoSQL Technologien. Dabei verfolgen wir hohe Standards bei Architektur und
+        Code, indem wir uns an die Prinzipien von Clean Code/SOLID halten und somit effiziente, wiederverwendbare und
+        gut lesbare Software herstellen. Durch Test getriebene Entwicklung (TDD) produzieren wir Software, der man in
+        hohem Maße vertrauen kann. Gleichzeitig erzeugen Test-Berichte eine Dokumentation die immer den aktuellen Stand
+        widerspiegelt.
+      - |
+        Wir sind der Überzeugung, dass agile Softwareentwicklung das bestmögliche Produkt hervorbringt. Durch stetiges
+        Feedback zwischen Entwicklern und Auftraggeber können die Anforderungen während der Entwicklung aktualisiert
+        werden. Es entsteht letztendlich das Produkt, das Ihren Vorstellungen am besten entspricht. Unsere Lösungen
+        sind unabhängig von Software Herstellern, um eine hohe Qualität und Performanz zu erreichen und Ihnen immer die
+        passende Lösung anbieten zu können.
+  contact_us:
+    en: Contact us
+    de: Kontakieren Sie uns
+
+contact:
+  disclaimer:
+    en: Interested? Contact us!
+    de: Interessiert? Kontaktieren Sie uns!
+  send_mail:
+    en: Send an E-Mail
+    de: Schicke eine E-Mail
+
+offers:
+  - title:
+      en: Software Development
+      de: Software Entwicklung
+    teaser:
+      en: Implementation of scalable Web-Services and Backends.
+      de: Umsetzung von skalierbaren Web-Services und Backend Software.
+    description:
+      en: |
+        We implement customized software solutions powered by the latest technologies. Agile development methods
+        will ensure the best possible outcome.
+      de: |
+        Wir implementieren maßgeschneiderte Software Lösungen mithilfe neuster Technologien. Durch Anwendung agiler
+        Entwicklungsmethoden liefern wir zuverlässige und klar strukturierte Software.
+
+  - title:
+      en: Consulting
+      de: Beratung
+    teaser:
+      en: Support in finding the right architecture that scales.
+      de: Unterstützung bei Architektur- und Designentscheidungen.
+    description:
+      en: |
+        We analyse the needs of your project and help you to find the right architecture built with NoSQL and
+        traditional database techniques.
+      de: |
+        Wir analysieren die Anforderungen Ihres Backends und helfen Ihnen eine geeignete Architektur aus NoSQL und
+        traditionellen Datenbanken zu finden.
+
+principles:
+  - title: Clean Code
+    teaser:
+      en: Sustainable products
+      de: Nachhaltige Produkte
+    description:
+      en: |
+        Following the principles of Clean Code and SOLID we produce high quality software in the simplest way possible.
+        Software that is easy to maintain, highly efficient and with code that is easy to read.
+      de: |
+        Software entwicklen wir nach den Prinzipien von Clean Code/SOLID. So produzieren wir Code der gut lesbar,
+        einfach zu warten und hoch effizient ist.
+
+  - title:
+      en: Agile Development
+      de: Agile Entwicklung
+    teaser:
+      en: Frequent feedback
+      de: Regelmäßiges Feedback
+    description:
+      en: |
+        Developing software in an agile way will produce a product that reflects your needs best. Part of achieving this
+        is frequent feedback between developers and customers as well as fast release cycles.
+      de: |
+        Agile Softwareentwicklung stellt sicher, dass das Produkt immer die Anforderungen abbildet. Das erreichen wir
+        mit regelmäßigem Feedback zwischen Kunden und Entwicklern, sowie kurzen Release-Zyklen.
+
+  - title:
+      en: Test-driven Development
+      de: Test-getriebene Entwicklung
+    teaser:
+      en: Test first
+      de: Tests zuerst
+    description:
+      en: |
+        A good test coverage will procude highly trustable software. At the same time it creates a documentation of the
+        software that is always up to date.
+      de: |
+        Durch eine größtmögliche Testabdeckung entwickeln wir Software der man im hohen Maße vertrauen kann.
+        Gleichzeitig erzeugen die Testberichte eine Dokumentation, die immer den aktuellen Entwicklungsstand
+        wiederspiegelt.
+
+team:
+  - name: Monika Moser
+    text:
+      en: |
+        enjoys working on distributed systems. Studied computer science in Berlin, did research on NoSQL databases and
+        delved into real-world scalability challenges.
+      de: |
+        arbeitet am liebsten an Herausforderungen Verteilter Systeme, studierte Informatik in Berlin, entwickelte eine
+        NoSQL Datenbank und hat langjährige Erfahrung in der Entwicklung von skalierbaren Systemen.
+    pictureUrl: /images/monika.jpg
+    url: https://github.com/momo13
+    tags:
+      - redis
+      - javascript
+      - java
+      - ruby
+      - ruby-on-rails
+      - couch-db
+      - erlang
+      - c-plus-plus
+      - riak
+      - rest
+      - node-js
+      - aws
+      - pig
+      - hadoop
+
+  - name: Philipp Brüll
+    text:
+      en: |
+        is a low-level craftsman with a high-level attitude. Studied technical informatics in Berlin and accompanied
+        many Web-Startups. Open source developer by heart.
+      de: |
+        ist urspünglich ein low-level Handwerker, arbeitet seit einigen Jahren auch mit high-level Sprachen. Studierte
+        technische Informatik an der TU Berlin und begleitete einige Startups in der Stadt.
+    pictureUrl: /images/philipp.jpg
+    url: https://github.com/phifty
+    tags:
+      - riak
+      - redis
+      - kotlin
+      - java
+      - ruby
+      - ruby-on-rails
+      - couch-db
+      - javascript
+      - neo4j
+      - c-plus-plus
+      - c
+      - vert-x
+      - go
+      - allegro-graph
+      - rest
+      - websockets
+      - node-js
+      - aws
+      - erlang
+
+projects:
+  - title: Asset Management
+    description:
+      en: |
+        Development of an Asset Managemet componet. The component is part of a software technology to automate the
+        creation of animated images. It stores and manages binary data and meta-data in the filesystem. Its main
+        strengths are transactional management of dependent data and near realtime support.
+      de: |
+        Entwicklung einer Asset Management Komponente als Teil einer Software zur automatisierten Erstellung von
+        Bewegtbild-Animationen. Die Komponente verwaltet binäre Daten und Metadaten im Dateisystem. Sie zeichnet sich
+        aus durch transaktionales Verwalten voneinander abhängiger Daten und Nahezu-Echtzeit Fähigkeit.
+    url: http://www.wonderlamp-industries.com
+    tags:
+      - c-plus-plus
+
+  - title:
+      en: Web service for game analytics
+      de: Web service für Videospiel-Analysen
+    description:
+      en: |
+        Web service that collects analytics data from online games like unique players. Aggregation of data and
+        implementation of different charts accessible through a web interface. Integration into game engine. Highly
+        scalable service oriented architecture.
+      de: |
+        Ein Web-Service der Analyse-Daten aus Online Video-Spielen sammelt. Das Projekt umfasste das aggregieren von
+        Daten und deren Aufbereitung in Charts, die über ein Web-Interface zugänglich sind, sowie die Integration in
+        die Unity-Engine. Das Rückrad bildet ein hoch-skalierbares verteiltes Backend.
+    url: http://unity3d.com
+    tags:
+      - erlang
+      - ruby
+      - redis
+      - aws
+
+  - title: Anyaku
+    description:
+      en: |
+        Anyaku is an encrypted social network. All data is encrypted right in the browser, so that the server acts only
+        as a distribution hub between the users, without any insight to the content. This makes Anyaku the first
+        administration-free network, which is organised only by its users.
+      de: |
+        Anyaku ist ein verschlüsseltes soziales Netzwerk. Alle Nutzerdaten werden direkt im Browser verschlüsselt, so
+        dass der Server nur als Vermittler zwischen den Nutzern fungiert, ohne jede Einsicht in den Inhalt. Das macht
+        Anyaku zu einem Verwaltungs-freien Netzwerk, welches nur von den Nutzern selbst organisiert wird.
+    url: http://anyaku.com
+    tags:
+      - ruby
+      - javascript
+      - neo4j
+      - vert-x
+      - websockets
+
+  - title: Node.js Rest Web Service
+    description:
+      en: |
+        Web Service for managing employee data of a large company. The web service implements a REST API. It retrieves
+        and stores data from a LDAP server. It communicates with a web frontend implemented with Backbone.js.
+      de: |
+        Web-Service für das verwalten von Mitarbeiter-Daten bei großen Unternehmen. Die Schnittstelle bildet eine REST
+        API und als Backend dient ein LDAP server. Das Frontend ist auf Basis von Backbone.js implementiert.
+    tags:
+      - node-js
+      - javascript
+      - rest
+
+  - title: Encrypted profile documents
+    description:
+      en: |
+        Encrypted Profile Documents (EPD) acts as an encrypted container for any kind of information. They enable the
+        author of such a document to define, who is able to access a certain section of the document and who isn't. Many
+        of those EPDs build the cryptographic network, that is the heart of Anyaku.
+      de: |
+        Verschlüsselte Profil Dokumente (EPD) können als verschlüsselter Kontainer für jede Art von Information dienen.
+        Sie befähigen den Author des Dokuments festzulegen, welche Sektionen von anderen gelesen werden können und
+        welche nicht. Viele EPDs formen dann das kryptographisches Netzwerk, welches das Zentrum von Anyaku bildet.
+    url: https://github.com/phifty/epd-kotlin
+    tags:
+      - javascript
+      - kotlin
+      - java
+
+  - title: Holoserve
+    description:
+      en: |
+        A tool to easily fake an HTTP service. It's implement a DSL to describe HTTP request/response pairs and provides
+        a service that behaves liked described. Currently, JSON and OAuth are supported. Holoserve is great for automated
+        testing and local demo applications that should not depend on network services.
+      de: |
+        Ein Werkzeug, um einfach HTTP-basierte Dienste zu simulieren. Es implementiert eine DSL um
+        request/response-Paare zu beschreiben einen Dienst, der das beschriebene Verhalten umsetzt. Aktuell, werden
+        JSON und OAuth unterstützt. Das Werkzeug eignet sich hervorragend für automatische Tests and Präsentationen.
+    url: https://github.com/phifty/holoserve
+    tags:
+      - ruby
+      - rest
+
+  - title:
+      en: Neo4j module for Vert.x
+      de: Neo4j modul für Vert.x
+    description:
+      en: |
+        A generic Neo4j module for the Vert.x application server. It enables your application to use the embedded version
+        of Neo4j and avoid network latency.
+      de: |
+        Ein generisches Neo4j modul für den Vert.x Applikations-Server. Es befähigt Ihre Applikation die eingebettete
+        Version der Neo4j Datenbank zu benutzen und so Netzwerk-Latenz zu vermeiden.
+    url: https://github.com/phifty/vertx-neo4j-graph
+    tags:
+      - java
+      - neo4j
+      - vert-x
+
+  - title: CouchDB ruby client
+    description:
+      en: |
+        A ruby client library for accessing a CouchDB service. The intent was to build an plain, straight-forward
+        abstraction of the CouchDB REST API.
+      de: |
+        Eine Ruby client library um auf einen CouchDB Dienst zuzugreifen. Die Idee war ein simple, gradlinige
+        Abstraktion der CouchDB REST API zur Verfügung zu stellen.
+    url: https://github.com/phifty/couchdb
+    tags:
+      - ruby
+      - couch-db
+      - rest
+
+  - title: AllegroGraph ruby client
+    description:
+      en: |
+        A ruby client for the AllegroGraph RDF-tripel store. It abstracts the service's REST API and provides a clean
+        interface to various features of the store.
+      de: |
+        Ein Ruby client für den AllegroGraph RDF-tripel store. Er abstrahiert die REST API des Dienstes and stellt eine
+        einfache Schnittstelle für die verschiedenen Funktionen des Stores bereit.
+    url: https://github.com/phifty/agraph
+    tags:
+      - ruby
+      - allegro-graph
+      - rest
+
+tags:
+  c: C
+  c-plus-plus: C++
+  kotlin: Kotlin
+  erlang: Erlang
+  java: Java
+  ruby: Ruby
+  ruby-on-rails: Ruby on Rails
+  couch-db: CouchDB
+  javascript: Javascript
+  neo4j: Neo4j
+  redis: Redis
+  riak: Riak
+  vert-x: Vert.x
+  go: Go
+  allegro-graph: AllegroGraph
+  rest: REST
+  websockets: Websockets
+  node-js: Node.js
+  aws: AWS
+  hadoop: Hadoop
+  pig: Pig
