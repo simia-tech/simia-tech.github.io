@@ -8,7 +8,7 @@ index:
     imprint: Imprint
 
 home:
-  teaser: Be ready for BigData with NoSQL technologies.
+  teaser: Service-oriented software for scalable applications.
   technology:
     en: Technology
     de: Technologie
@@ -188,20 +188,20 @@ team:
     pictureUrl: /images/monika-100.jpg
     url: https://github.com/momo13
     tags:
-      - redis
+      - go
+      - erlang
+      - ruby
       - javascript
       - java
-      - ruby
-      - ruby-on-rails
-      - couch-db
-      - erlang
       - c-plus-plus
+      - redis
+      - couch-db
       - riak
-      - rest
-      - node-js
-      - aws
-      - pig
       - hadoop
+      - node-js
+      - ruby-on-rails
+      - rest
+      - aws
 
   - name: Philipp Brüll
     text:
@@ -235,6 +235,41 @@ team:
       - erlang
 
 projects:
+  - title: 
+      en: Analytics Backend
+      de: Daten Analyse Infrastruktur
+    description:
+      en: |
+        A backend for analysing a large number of events. The development both involved
+        a realtime analytic system as well as an offline data processing system. Millions of events per day are
+        counted and aggregated in realtime for a number of days, while overall numbers
+        have to calculated from the whole dataset. The solution consists of an in-memory database for realtime
+        analytics as well as a Hadoop data processing backend.
+      de: |
+        Hier wurde ein Datenanalyse Backend entwickelt. Es besteht sowohl aus einer Echtzeit Komponente als
+        auch aus einer Komponte zur Berechnung historischer Daten. In Echzeit wurden verschieden Zähler für
+        Millionen von täglichen Events zur Verfügung gestellt. Gleichzeitig wurde eine Infrastruktur geschaffen,
+        um Daten aus mehreren Monaten zu aggregieren und in Reports zur Verfügung zu stellen. Ermöglicht wurde
+        dies mithilfe einer In-Memory Datenbank und einem Hadoop Backend.
+    tags:
+      - voltdb
+      - hadoop
+      - java
+
+  - title: 
+      en: Realtime Middleware
+      de: Echtzeit Middleware
+    description:
+      en: |
+        Development of a middleware to support communication of 10000s of clients. It handles realtime
+        communication between clients and notifications for subscribed events.
+      de: |
+        Entwicklung einer Middleware für die Kommunikation zwischen 10000en von Clients. Die Middleware
+        ermöglicht Echtzeit Kommunikation und Benachrichtigungen bei Eintreten von abonnierten Events.
+    tags:
+      - node-js
+      - redis
+
   - title: Asset Management
     description:
       en: |
@@ -396,3 +431,4 @@ tags:
   aws: AWS
   hadoop: Hadoop
   pig: Pig
+  voltdb: VoltDB
