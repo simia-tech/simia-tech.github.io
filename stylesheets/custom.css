@@ -10,137 +10,137 @@
   font-weight: 400;
   src: local("Gotham Bold"), local("GothamBold"), url(/fonts/gotham-bold-webfont.woff) format("woff"); }
 
-/* line 15, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 15, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 body {
   font-family: "Gotham Light";
   background-color: #f6f6f6; }
 
-/* line 20, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 20, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 h1, h2, h3, h4, g5 {
   font-family: "Gotham Bold";
   font-weight: normal; }
 
-/* line 24, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 24, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 p {
   line-height: 1.4em;
   margin-bottom: 0.2em; }
 
-/* line 29, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 29, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content {
   padding: 1em; }
 
-/* line 32, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 32, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content h1 {
   font-size: 180%;
   margin-bottom: 0; }
 
-/* line 36, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 36, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content h2 {
   font-size: 150%;
   margin-bottom: 0; }
 
-/* line 40, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 40, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content form {
   margin-top: 1em; }
 
-/* line 44, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 44, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .person {
   clear: both; }
 
-/* line 47, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 47, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .person > a {
   float: left;
   margin-right: 0.5em;
   margin-bottom: 0.5em; }
 
-/* line 52, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 52, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .person > span {
   float: left;
   max-width: 70%; }
 
-/* line 56, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 56, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .person > span > strong {
   font-family: 'Cuprum', sans-serif;
   font-style: italic;
   font-size: 110%;
   margin-right: 0.5em; }
 
-/* line 62, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 62, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .person > span > p {
   display: inline; }
 
-/* line 65, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 65, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .person > ul {
   clear: both;
   float: left;
   list-style: none;
   margin-left: 0; }
 
-/* line 71, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 71, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .person > ul > li {
   float: left;
   margin-right: 0.5em; }
 
-/* line 76, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 76, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .project > span > strong {
   font-family: 'Cuprum', sans-serif;
   font-style: italic;
   font-size: 110%; }
 
-/* line 82, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 82, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .project > a {
   float: left; }
 
-/* line 85, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 85, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .project > ul {
   clear: both;
   float: left;
   list-style: none;
   margin-left: 0; }
 
-/* line 91, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 91, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .project > ul > li {
   float: left;
   margin-right: 0.5em; }
 
-/* line 95, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 95, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .section {
   font-weight: bold; }
 
-/* line 98, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 98, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .section > .columns {
   padding: 1em 0.9375em; }
 
-/* line 101, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 101, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .pricing-table * {
   line-height: 1.2em; }
 
-/* line 104, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 104, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .pricing-table > .price {
   padding: 0.6375em 0.25em; }
 
-/* line 107, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 107, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .pricing-table > .description {
   font-size: 1.25em;
   text-align: justify; }
 
-/* line 111, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 111, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .tags > ul {
   list-style: none; }
 
-/* line 114, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 114, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .tags > ul > li {
   float: left;
   margin-right: 0.5em; }
 
-/* line 119, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 119, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .topic {
   font-family: 'Cuprum', sans-serif;
   font-style: italic;
   font-size: 110%;
   color: dimgrey; }
 
-/* line 126, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 126, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .content .teaser > .columns > span {
   display: inline-block;
   width: 100%;
@@ -151,16 +151,16 @@ p {
   text-align: center;
   color: #1e2828; }
 
-/* line 137, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 137, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .header {
   margin-top: 1.5em; }
 
-/* line 141, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 141, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .header .sitename > h1 {
   font-family: 'Lobster', cursive;
   font-size: 300%; }
 
-/* line 146, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 146, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .header > .columns > h1 {
   display: inline;
   font-size: 300%;
@@ -168,43 +168,43 @@ p {
   margin-right: 0.5em;
   margin-bottom: 0; }
 
-/* line 154, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 154, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .header > .columns > span {
   font-size: 80%;
   font-style: italic; }
 
-/* line 159, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 159, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .header > .columns > div {
   margin-top: 10px;
   text-align: right; }
 
-/* line 164, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 164, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .header a > img {
   width: 400px;
   margin-top: 10px;
   margin-bottom: -20px; }
 
-/* line 170, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 170, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .footer > .columns {
   padding: 1em 0;
   text-align: center; }
 
-/* line 175, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 175, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .navigation hr {
   height: 12px;
   margin: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0; }
 
-/* line 181, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 181, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .navigation hr.yellow {
   background-color: #fbaf3f; }
 
-/* line 184, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 184, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .navigation hr.black {
   background-color: #000000; }
 
-/* line 187, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 187, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .navigation ul {
   list-style: none;
   line-height: 1.4em;
@@ -213,12 +213,12 @@ p {
   font-size: 1.1em;
   /*none*/ }
 
-/* line 193, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 193, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .navigation ul li {
   float: left;
   margin-left: 1em; }
 
-/* line 197, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 197, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .navigation ul li a {
   font-family: 'Cuprum', sans-serif;
   /*font-family: "Gotham Bold";*/
@@ -227,59 +227,59 @@ p {
   font-style: italic;
   color: #969696; }
 
-/* line 205, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 205, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .navigation ul li a:hover {
   color: dimgrey; }
 
-/* line 208, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 208, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .navigation ul li.active a {
   color: #1e2828; }
 
-/* line 212, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 212, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .impress {
   font-size: 80%; }
 
-/* line 216, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 216, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .impress h1 {
   color: #1e2828; }
 
-/* line 220, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 220, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .impress h2 {
   color: #1e2828; }
 
-/* line 224, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 224, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .pricing-table {
   border: none; }
 
-/* line 228, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 228, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .pricing-table .price {
   font-style: italic;
   font-size: 0.95em;
   /*  	background-color: (105,105,105,0.4);*/
   background-color: rgba(251, 175, 63, 0.1); }
 
-/* line 235, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 235, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .pricing-table .title {
   background-color: #1e2828;
   color: white;
   padding: 0.6375em 0.25em; }
 
-/* line 241, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 241, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .pricing-table .description {
   background-color: rgba(236, 236, 236, 0.1); }
 
-/* line 245, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 245, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .screen {
   background-color: white; }
 
-/* line 249, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 249, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .shadow {
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1);
   -o-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1); }
 
-/* line 263, /Users/monikamoser/Projects/simia-homepage/simia-tech.github.io/source/stylesheets/custom.scss */
+/* line 263, /home/phifty/projects/simia-tech.github.io/source/stylesheets/custom.scss */
 .glass {
   color: #ffffff;
   border-radius: 3px;
