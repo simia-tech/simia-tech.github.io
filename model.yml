@@ -235,7 +235,23 @@ team:
       - erlang
 
 projects:
-  - title: 
+  - title: Fader
+    description:
+      en: |
+        Fader is an In-Memory storage system that distributes items via UDP multicast. It works incredible fast
+        and is made for use cases, where a small faction of the items can be lost. The use of UDP multicast makes
+        it really easy to configure and to up- or down-scale the cluster.
+      de: |
+        Fader ist ein In-Memory-Speicher-System das Daten über UDP multicast verteilt. Es arbeitet unglaublich schnell
+        und wurde für Anwendungsfälle entwickelt, bei denen ein kleiner Teil der Daten verloren gehen kann. Durch UDP
+        multicast ist es extrem einfach zu konfigurieren und es ermöglicht ein einfaches hoch- bzw. runter-skalieren
+        des Clusters.
+    url: https://github.com/simia-tech/fader
+    tags:
+      - go
+      - udp
+      - multicast
+  - title:
       en: Analytics Backend
       de: Daten Analyse Infrastruktur
     description:
@@ -256,7 +272,7 @@ projects:
       - hadoop
       - java
 
-  - title: 
+  - title:
       en: Realtime Middleware
       de: Echtzeit Middleware
     description:
