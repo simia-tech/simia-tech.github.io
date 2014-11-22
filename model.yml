@@ -426,25 +426,27 @@ projects:
       - rest
 
 tags:
+  allegro-graph: AllegroGraph
+  aws: AWS
   c: C
   c-plus-plus: C++
-  kotlin: Kotlin
-  erlang: Erlang
-  java: Java
-  ruby: Ruby
-  ruby-on-rails: Ruby on Rails
   couch-db: CouchDB
+  erlang: Erlang
+  go: Go
+  hadoop: Hadoop
+  java: Java
   javascript: Javascript
+  kotlin: Kotlin
+  multicast: Multicast
   neo4j: Neo4j
+  node-js: Node.js
+  pig: Pig
   redis: Redis
   riak: Riak
-  vert-x: Vert.x
-  go: Go
-  allegro-graph: AllegroGraph
+  ruby: Ruby
+  ruby-on-rails: Ruby on Rails
   rest: REST
-  websockets: Websockets
-  node-js: Node.js
-  aws: AWS
-  hadoop: Hadoop
-  pig: Pig
+  udp: UDP
+  vert-x: Vert.x
   voltdb: VoltDB
+  websockets: Websockets
